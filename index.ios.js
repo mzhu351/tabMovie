@@ -12,8 +12,8 @@ import React, {
   View
 } from 'react-native';
 
-var Movie = require('./ios/views/Movie');
-var Bookmarks = require('./ios/views/Bookmarks');
+var Movie = require('./views/Movie');
+var Bookmarks = require('./views/Bookmarks');
 
 class tabMovie extends Component {
   constructor() {
