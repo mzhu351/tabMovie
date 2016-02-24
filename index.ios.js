@@ -12,6 +12,9 @@ import React, {
   View
 } from 'react-native';
 
+var Movie = require('./ios/views/Movie');
+var Bookmarks = require('./ios/views/Bookmarks');
+
 class tabMovie extends Component {
   constructor() {
     super();
@@ -24,23 +27,19 @@ class tabMovie extends Component {
     return (
       <TabBarIOS>
         <TabBarIOS.Item
-          systemIcon="history"
-          selected={this.state.selectedTab === "tabOne"}
-          onPress={() => this.setTab('tabOne')}>
-          <View style={styles.tabContent}>
-            <Text style={styles.tabText}>Tab One</Text>
-          </View>
+          systemIcon="featured"
+          selected={this.state.selectedTab === "movie"}
+          onPress={() => this.setTab('movie')}>
+          <Movie/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
           systemIcon="bookmarks"
-          selected={this.state.selectedTab === "tabTwo"}
-          onPress={() => this.setTab('tabTwo')}>
-          <View style={styles.tabContent}> 
-            <Text style={styles.tabText}>Tab Two</Text>
-          </View>
+          selected={this.state.selectedTab === "bookmarks"}
+          onPress={() => this.setTab('bookmarks')}>
+          <Bookmarks/>
         </TabBarIOS.Item>
         <TabBarIOS.Item
-          systemIcon="more"systemIcon="bookmarks"
+          systemIcon="more"
           selected={this.state.selectedTab === "tabThree"}
           onPress={() => this.setTab('tabThree')}>
           <View style={styles.tabContent}>
