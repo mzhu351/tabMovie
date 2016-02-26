@@ -20,7 +20,7 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		393BBA951C7D82390051438B /* broadchurch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 393BBA941C7D82390051438B /* broadchurch.mp4 */; };
+		392E6FEA1C7EB7EA0093C182 /* fe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 392E6FE91C7EB7EA0093C182 /* fe.mp4 */; };
 		395C69A21C7D6D9100157E1C /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 395C699F1C7D6D4500157E1C /* libRCTVideo.a */; };
 		395C69F21C7D7EA200157E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -133,6 +133,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tabMovie/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tabMovie/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		392E6FE91C7EB7EA0093C182 /* fe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fe.mp4; path = ../fe.mp4; sourceTree = "<group>"; };
 		393BBA941C7D82390051438B /* broadchurch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = broadchurch.mp4; path = ../broadchurch.mp4; sourceTree = "<group>"; };
 		395C69921C7D6D4500157E1C /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
 		395C69AE1C7D6F9B00157E1C /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
@@ -310,6 +311,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				392E6FE91C7EB7EA0093C182 /* fe.mp4 */,
 				393BBA941C7D82390051438B /* broadchurch.mp4 */,
 				13B07FAE1A68108700A75B9A /* tabMovie */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -540,7 +542,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393BBA951C7D82390051438B /* broadchurch.mp4 in Resources */,
+				392E6FEA1C7EB7EA0093C182 /* fe.mp4 in Resources */,
 				395C69F21C7D7EA200157E1C /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
